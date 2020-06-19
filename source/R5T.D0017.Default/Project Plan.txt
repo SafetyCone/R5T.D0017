@@ -1,0 +1,5 @@
+R5T.D0017.Default - A default implementations library for the R5T.D0017 (IFunctionalVisualStudioProjectFileSerializationModifier) project.
+
+
+Goals
+
