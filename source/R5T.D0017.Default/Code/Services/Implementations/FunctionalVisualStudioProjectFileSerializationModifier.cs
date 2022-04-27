@@ -1,16 +1,16 @@
-﻿using System;
+using System;
 using System.Threading.Tasks;
 
 using R5T.D0010;
 using R5T.D0034;
 using R5T.T0002;
 
-using R5T.Lombardy;
+using R5T.Lombardy;using R5T.T0064;
 
 
 namespace R5T.D0017.Default
-{
-    public class FunctionalVisualStudioProjectFileSerializationModifier : IFunctionalVisualStudioProjectFileSerializationModifier
+{[ServiceImplementationMarker]
+    public class FunctionalVisualStudioProjectFileSerializationModifier : IFunctionalVisualStudioProjectFileSerializationModifier,IServiceImplementation
     {
         private IStringlyTypedPathOperator StringlyTypedPathOperator { get; }
         private IVisualStudioProjectFileProjectReferencePathProvider VisualStudioProjectFileProjectReferencePathProvider { get; }

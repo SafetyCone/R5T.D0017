@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.D0017.Construction", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.D0017.Default", "R5T.D0017.Default\R5T.D0017.Default.csproj", "{9304E82D-FE81-47CD-9AEB-17B3479D5CC4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{2C4BB93D-D1A9-4319-8CB0-DED7D49E0886}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{DEEEB6B3-1E88-41F5-A321-CB09D9EE93CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +76,20 @@ Global
 		{9304E82D-FE81-47CD-9AEB-17B3479D5CC4}.Release|x64.Build.0 = Release|Any CPU
 		{9304E82D-FE81-47CD-9AEB-17B3479D5CC4}.Release|x86.ActiveCfg = Release|Any CPU
 		{9304E82D-FE81-47CD-9AEB-17B3479D5CC4}.Release|x86.Build.0 = Release|Any CPU
+		{DEEEB6B3-1E88-41F5-A321-CB09D9EE93CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEEEB6B3-1E88-41F5-A321-CB09D9EE93CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEEEB6B3-1E88-41F5-A321-CB09D9EE93CE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DEEEB6B3-1E88-41F5-A321-CB09D9EE93CE}.Debug|x64.Build.0 = Debug|Any CPU
+		{DEEEB6B3-1E88-41F5-A321-CB09D9EE93CE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DEEEB6B3-1E88-41F5-A321-CB09D9EE93CE}.Debug|x86.Build.0 = Debug|Any CPU
+		{DEEEB6B3-1E88-41F5-A321-CB09D9EE93CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEEEB6B3-1E88-41F5-A321-CB09D9EE93CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEEEB6B3-1E88-41F5-A321-CB09D9EE93CE}.Release|x64.ActiveCfg = Release|Any CPU
+		{DEEEB6B3-1E88-41F5-A321-CB09D9EE93CE}.Release|x64.Build.0 = Release|Any CPU
+		{DEEEB6B3-1E88-41F5-A321-CB09D9EE93CE}.Release|x86.ActiveCfg = Release|Any CPU
+		{DEEEB6B3-1E88-41F5-A321-CB09D9EE93CE}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DEEEB6B3-1E88-41F5-A321-CB09D9EE93CE} = {2C4BB93D-D1A9-4319-8CB0-DED7D49E0886}
 	EndGlobalSection
 EndGlobal
