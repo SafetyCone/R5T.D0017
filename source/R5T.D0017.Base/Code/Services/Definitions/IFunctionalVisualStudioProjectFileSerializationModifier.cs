@@ -22,7 +22,7 @@ namespace R5T.D0017
             where T : IVisualStudioProjectFile;
 
         /// <summary>
-        /// Includes both <paramref name="stream"/> and <paramref name="projectFilePath"/> since project reference absolute file paths will need to be made relative.
+        /// Includes both <paramref name="visualStudioProjectFile"/> and <paramref name="projectFilePath"/> since project reference absolute file paths will need to be made relative.
         /// </summary>
         Task<T> ModifySerializationAsync<T>(T visualStudioProjectFile, string projectFilePath, IMessageSink messageSink)
             where T : IVisualStudioProjectFile;
